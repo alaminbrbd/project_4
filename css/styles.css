@@ -1,0 +1,170 @@
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f7;
+}
+
+/* Style for the navigation bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px;
+    text-align: right;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style for the copyright footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* Style for the navigation bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px;
+    text-align: right;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style for the copyright footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Sign-Up Section */
+.signup-section {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.signup-section h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Form Group Styling for Side-by-Side Layout */
+.form-group {
+    display: flex; /* Enables flexbox */
+    align-items: center; /* Centers items vertically */
+    margin-bottom: 15px; /* Space between groups */
+}
+
+.form-group label {
+    flex: 1; /* Label takes 1 part of the space */
+    font-weight: bold;
+    color: #555;
+    margin-right: 10px; /* Space between label and input */
+    text-align: right; /* Align label text to the right */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="tel"],
+.form-group input[type="date"],
+.form-group input[type="file"] {
+    flex: 2; /* Input takes 2 parts of the space */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Ensures the input field takes the available space */
+}
+
+small {
+    font-size: 0.8em;
+    color: #888;
+    margin-left: 10px; /* Adds space to the left of the small text */
+}
+
+/* Terms Checkbox */
+.terms {
+    flex-direction: row; /* Aligns checkbox and label in a row */
+    justify-content: flex-start; /* Aligns to the left */
+}
+
+/* Submit Button */
+button[type="submit"] {
+    width: 100%; /* Full width for the button */
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.login-prompt {
+    text-align: center; /* Center-aligns the text */
+    margin-top: 20px; /* Adds space above the prompt */
+}
+
+.login-prompt p {
+    font-size: 0.9em; /* Makes the text slightly smaller */
+    color: #555; /* Sets a color for the text */
+}
+
+.login-prompt a {
+    color: #4CAF50; /* Sets the color of the link */
+    text-decoration: none; /* Removes underline from the link */
+}
+
+.login-prompt a:hover {
+    text-decoration: underline; /* Underlines the link on hover */
+}
